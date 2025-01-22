@@ -6,8 +6,8 @@ public class Barco {
     private int tamanno;
     private boolean[] disparos;
     private int cantidadDisparos;
-    private int fil;
-    private int col;
+    private int fila;
+    private int columna;
     private boolean vertical;
 
     public Barco(Tablero tablero, String denominacion, int tamanno) {
